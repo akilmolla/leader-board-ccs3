@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:ital,wght@0,500;1,500&display=swap');
+
+/* common style */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #F3F1FF;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background: #F3F1FF;
+}
+
+.container-are {
+    background: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+}
+
+
+/* style to palayers start */
+.top-players {
+    margin-bottom: 30px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+
+}
+
+.bg {
+
+    font-size: 24px;
+    color: #562EFF;
+    margin-top: 3px;
+
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+
+    width: 56px;
+    height: 56px;
+}
+
+.palaye-name {
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+/* ------------
+    style blogs site
+  --------------*/
+
+.bolgs-prant{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 26px;
+    
+}
+.sub-bols-parnat {
+    display: flex;
+    gap: 16px;
+}
+
+.thumnl img {
+    width: 200px;
+    height: 127px;
+}
+.blog-info{
+    font-size: 16px;
+}
+
+.tag-mark {
+    font-size: 16px;
+    color: #9F9F9F;
+}
+
+.link {
+    font-weight: 400;
+    font-size: 16px;
+    color: #562EFF;
+    text-decoration: none;
+}
