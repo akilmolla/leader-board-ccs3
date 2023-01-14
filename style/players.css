@@ -9,7 +9,8 @@ body {
 
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background: #F3F1FF;
 }
 
@@ -17,6 +18,8 @@ main {
     background: #FFFFFF;
     width: 870px;
     padding: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
 }
 
 hr {
@@ -64,13 +67,14 @@ hr {
     style blogs site
   --------------*/
 
-.bolgs-prant{
+.bolgs-prant {
 
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 26px;
-    
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+
 }
+
 .sub-bols-parnat {
     display: flex;
     gap: 16px;
@@ -80,8 +84,10 @@ hr {
     width: 200px;
     height: 127px;
 }
-.blog-info{
+
+.blog-info {
     font-size: 16px;
+    color: #562EFF;
 }
 
 .tag-mark {
@@ -94,4 +100,57 @@ hr {
     font-size: 16px;
     color: #562EFF;
     text-decoration: none;
+}
+
+/* ---------------
+    couress style
+------- */
+.courses{
+    display: flex;
+    gap: 36px;
+  
+}
+.course img {
+    width: 224px;
+    height: 104px;
+}
+
+.react-head {
+    font-weight: 500;
+    font-size: 20.0336px;
+    color: #1E1E1E;
+}
+
+.coures-info {
+    font-size: 14.6913px;
+    color: #ED6B4F;
+    text-decoration: none;
+
+}
+
+.icon img {
+    width: 12px;
+    height: 12px;
+}
+
+.gray-col,
+.gray-col1 {
+    color: #A2A2A2;
+}
+
+.icon-are {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.point {
+    background: #FFE4E8;
+    border-radius: 14.6913px;
+}
+
+#timeline {
+    width: 20px;
+    height: 20px;
 }
